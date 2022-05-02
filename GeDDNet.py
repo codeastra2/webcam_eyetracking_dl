@@ -14,7 +14,8 @@ class GEDDnet(nn.Module):
             num_face=[64, 128, 64, 64, 128, 256, 64],
             r=[[2, 2], [3, 3], [4, 5], [5, 11]],
             num_eye=[64, 128, 64, 64, 128, 256],
-            num_comb=[0, 256]):
+            num_comb=[0, 256],
+            num_subj=1):
 
         super(GEDDnet, self).__init__()
 
@@ -99,7 +100,10 @@ class GEDDnet(nn.Module):
         self.combined_fc1 = nn.Linear(576, num_comb[1])
         self.combined_fc2 = nn.Linear(num_comb[1], 2)
 
-    def forward(self, X_face, X_leye, X_reye):
+        self.bias_w_fc =  torch.empty((num_subj,2), dtype=torch.float32, requires_grad=True)
+        self.bias_w_fc.fill_(0.5)
+
+    def forward(self, X_face, X_leye, X_reye, sunj_id):
         X_face = F.relu(self.face_conv1_1(X_face))
         X_face = F.relu(self.face_conv1_2(X_face))
         X_face = self.max_pool(X_face)
@@ -182,6 +186,8 @@ class GEDDnet(nn.Module):
         X_combined = F.relu(self.combined_fc1(X_combined))
         X_combined = self.dropout(X_combined)
 
-        X_combined = F.relu(self.combined_fc2(X_combined))
+        t_hat = F.relu(self.combined_fc2(X_combined))
+        b_hat = torch.matmul(sunj_id, self.bias_w_fc)
+        g_hat = t_hat + b_hat
 
-        return X_combined
+        return g_hat, t_hat, b_hat
