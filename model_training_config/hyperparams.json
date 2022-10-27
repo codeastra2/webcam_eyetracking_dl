@@ -1,0 +1,41 @@
+ {
+    "experiment_name": "Gexp_ZCAscale", 
+    "diagonal_dist_ratio" : 0.13,
+
+    "model_type": "geddnet",
+    "init_geddnet": false, 
+    "use_pbias": false,
+    "vgg_weights_fname": "vgg16_weights.npz",
+
+
+    "dataset_folder": "2022-10-12_20:44:15_P01_Wframe_ZCAWhitened", 
+    "dataset_train_file": "P_01_train.pt",
+    "dataset_test_file": "P_01_test.pt",
+    "extract_features": false, 
+    
+    "num_epochs": 30, 
+    "num_epochs_to_log_loss" : 1,
+    "num_epochs_to_log_metric" : 1,
+    "num_epochs_to_save_model" : 20,
+    "plot_epoch_start" : 3,
+    "batch_size" : 64,
+    "k_fold" : 0,
+
+
+    "min_epochs" : 10,
+    "max_epochs" : 100000,
+    "imp_thresh" : 0.00001,
+    "patience" : 100000,
+
+    "beta1" : 0.9,
+    "beta2" : 0.99,
+    "learning_rate" : 0.000001,
+    "learning_rate_decay_step_size" : 10000,
+    "learning_rate_decay_factor" : 0.1,
+    "use_l1_reg" : false,
+    "use_l2_reg" : false,
+    "l1_reg_lambda" : 0.01,
+    "l2_reg_lambda" : 0.01,
+    "dropout" : 0.6,
+    "warm_up_epochs": 5
+}
