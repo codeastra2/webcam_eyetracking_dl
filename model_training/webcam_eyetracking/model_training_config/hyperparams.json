@@ -1,5 +1,5 @@
  {
-    "experiment_name": "Gexp_ZCAscale", 
+    "experiment_name": "Geddnet_webcam_exp", 
     "diagonal_dist_ratio" : 0.13,
 
     "model_type": "geddnet",

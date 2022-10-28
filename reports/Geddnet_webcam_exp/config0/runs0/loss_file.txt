@@ -1,0 +1,90 @@
+10-28-2022 08:14:39 | INFO | The loss diff is 1234566.9521857277
+10-28-2022 08:14:40 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 0 is: 0.047814272318401234
+10-28-2022 08:14:40 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 0 is: 0.02416050172064383
+10-28-2022 08:15:07 | INFO | The loss diff is 0.025572439635221208
+10-28-2022 08:15:08 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 1 is: 0.022241832683180026
+10-28-2022 08:15:08 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 1 is: 0.020605722682154468
+10-28-2022 08:15:36 | INFO | The loss diff is 0.0023257179247840563
+10-28-2022 08:15:37 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 2 is: 0.01991611475839597
+10-28-2022 08:15:37 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 2 is: 0.019362480338310364
+10-28-2022 08:16:05 | INFO | The loss diff is 0.0011683924648023987
+10-28-2022 08:16:05 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 3 is: 0.01874772229359357
+10-28-2022 08:16:05 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 3 is: 0.017743987623537617
+10-28-2022 08:16:33 | INFO | The loss diff is 0.0010197112834651467
+10-28-2022 08:16:34 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 4 is: 0.017728011010128424
+10-28-2022 08:16:34 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 4 is: 0.017246200617144908
+10-28-2022 08:17:02 | INFO | The loss diff is 0.0006983524167958922
+10-28-2022 08:17:03 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 5 is: 0.017029658593332532
+10-28-2022 08:17:03 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 5 is: 0.01679030694818244
+10-28-2022 08:17:32 | INFO | The loss diff is 0.0006877666483132185
+10-28-2022 08:17:33 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 6 is: 0.016341891945019314
+10-28-2022 08:17:33 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 6 is: 0.016151121666154733
+10-28-2022 08:18:02 | INFO | The loss diff is 0.0002311219497450681
+10-28-2022 08:18:03 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 7 is: 0.016110769995274245
+10-28-2022 08:18:03 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 7 is: 0.015543942912498759
+10-28-2022 08:18:33 | INFO | The loss diff is 0.0006428762089721544
+10-28-2022 08:18:33 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 8 is: 0.015467893786302091
+10-28-2022 08:18:33 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 8 is: 0.014982467296976354
+10-28-2022 08:19:03 | INFO | The loss diff is 0.000361497755441963
+10-28-2022 08:19:03 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 9 is: 0.015106396030860128
+10-28-2022 08:19:03 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 9 is: 0.014736190622555325
+10-28-2022 08:19:33 | INFO | The loss diff is 0.00030537959691133085
+10-28-2022 08:19:33 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 10 is: 0.014801016433948797
+10-28-2022 08:19:33 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 10 is: 0.014486517827433104
+10-28-2022 08:20:03 | INFO | The loss diff is 0.0006683511824440106
+10-28-2022 08:20:04 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 11 is: 0.014132665251504787
+10-28-2022 08:20:04 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 11 is: 0.013978002423131169
+10-28-2022 08:20:33 | INFO | The loss diff is -0.00017340789448843513
+10-28-2022 08:20:33 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 12 is: 0.014306073145993222
+10-28-2022 08:20:33 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 12 is: 0.013664009492988068
+10-28-2022 08:21:02 | INFO | The loss diff is 0.00014843497034765056
+10-28-2022 08:21:03 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 13 is: 0.013984230281157136
+10-28-2022 08:21:03 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 13 is: 0.01359704911352218
+10-28-2022 08:21:32 | INFO | The loss diff is 0.0002371777013325787
+10-28-2022 08:21:33 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 14 is: 0.013747052579824557
+10-28-2022 08:21:33 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 14 is: 0.01299003062159002
+10-28-2022 08:22:02 | INFO | The loss diff is 0.0005205430379549413
+10-28-2022 08:22:03 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 15 is: 0.013226509541869616
+10-28-2022 08:22:03 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 15 is: 0.01306243491928493
+10-28-2022 08:22:32 | INFO | The loss diff is 0.00021660171253265297
+10-28-2022 08:22:33 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 16 is: 0.013009907829336963
+10-28-2022 08:22:33 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 16 is: 0.012993337115686444
+10-28-2022 08:23:01 | INFO | The loss diff is -5.0799809697080894e-06
+10-28-2022 08:23:01 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 17 is: 0.013014987810306671
+10-28-2022 08:23:01 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 17 is: 0.012738930336568977
+10-28-2022 08:23:30 | INFO | The loss diff is 0.00043836834523779296
+10-28-2022 08:23:31 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 18 is: 0.01257153948409917
+10-28-2022 08:23:31 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 18 is: 0.01252279626090506
+10-28-2022 08:24:00 | INFO | The loss diff is 8.339376169981885e-06
+10-28-2022 08:24:01 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 19 is: 0.012563200107929188
+10-28-2022 08:24:01 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 19 is: 0.012406977451604973
+10-28-2022 08:24:30 | INFO | The loss diff is 0.0002249080165310502
+10-28-2022 08:24:31 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 20 is: 0.01234663146756812
+10-28-2022 08:24:31 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 20 is: 0.012042867276177096
+10-28-2022 08:25:00 | INFO | The loss diff is 0.0002737940046495316
+10-28-2022 08:25:01 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 21 is: 0.012072837462918588
+10-28-2022 08:25:01 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 21 is: 0.011883267553983284
+10-28-2022 08:25:31 | INFO | The loss diff is 0.00018286811406665292
+10-28-2022 08:25:32 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 22 is: 0.011889969348851935
+10-28-2022 08:25:32 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 22 is: 0.011710554622183124
+10-28-2022 08:26:01 | INFO | The loss diff is 0.00022018997223511964
+10-28-2022 08:26:02 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 23 is: 0.011669779376616816
+10-28-2022 08:26:02 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 23 is: 0.011441300094690215
+10-28-2022 08:26:31 | INFO | The loss diff is 0.00012556181692085187
+10-28-2022 08:26:32 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 24 is: 0.011544217559695964
+10-28-2022 08:26:32 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 24 is: 0.011224895278559464
+10-28-2022 08:27:01 | INFO | The loss diff is 0.0002392527826458983
+10-28-2022 08:27:02 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 25 is: 0.011304964777050066
+10-28-2022 08:27:02 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 25 is: 0.011116706901750248
+10-28-2022 08:27:32 | INFO | The loss diff is 0.00012352558883753362
+10-28-2022 08:27:32 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 26 is: 0.011181439188212532
+10-28-2022 08:27:32 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 26 is: 0.010987077383042323
+10-28-2022 08:28:02 | INFO | The loss diff is 3.4292230062585305e-05
+10-28-2022 08:28:03 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 27 is: 0.011147146958149947
+10-28-2022 08:28:03 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 27 is: 0.011001007202333931
+10-28-2022 08:28:32 | INFO | The loss diff is 0.00011386528586243387
+10-28-2022 08:28:33 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 28 is: 0.011033281672287513
+10-28-2022 08:28:33 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 28 is: 0.010838636742483506
+10-28-2022 08:29:02 | INFO | The loss diff is 0.00012752177984764676
+10-28-2022 08:29:03 | INFO | The average  train loss(MSE for x,y co-ordinates) for epoch: 29 is: 0.010905759892439866
+10-28-2022 08:29:03 | INFO | The average  test loss(MSE for x,y co-ordinates) for epoch: 29 is: 0.010840094945458359

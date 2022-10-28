@@ -5,7 +5,7 @@ import math
 
 from pathlib import Path
 
-from webcam_eyetracking.models.geddnet import GEDDnet
+from webcam_eyetracking.geddnet import GEDDnet
 
 
 import matplotlib.pyplot as plt

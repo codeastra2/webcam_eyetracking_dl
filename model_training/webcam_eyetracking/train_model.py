@@ -14,9 +14,9 @@ from torch.utils.data import DataLoader
 import torch.optim as optim
 
 from webcam_eyetracking._utils import get_project_root
-from webcam_eyetracking.models.utils import LoggingHelper, ModelTrainingHelper, ModelPathUtils
-from webcam_eyetracking.models.gaze_dataset import GazeDataset
-from webcam_eyetracking.models.geddnet import GEDDnet
+from webcam_eyetracking.utils import LoggingHelper, ModelTrainingHelper, ModelPathUtils
+from webcam_eyetracking.gaze_dataset import GazeDataset
+from webcam_eyetracking.geddnet import GEDDnet
 
 
 # %%
@@ -43,7 +43,14 @@ def execute_step(dataset, phase,  epoch,  fold_num,  log_loss=False, log_evaluat
                 leye  = sample["leye"].to(device)
                 reye  = sample["reye"].to(device)
                 face  = sample["face"].to(device)
+
+                #TODO Please note that here we only train on single participant
+                # due to dataset constrains but when training on multiple participants
+                # this valueh has to be modified to true "one hot " encoding 
+                # so that based on the participant we only consider BIAS with 1 
+                # for that participant and null out the rest with 0. 
                 subj_id = torch.FloatTensor([1]).to(device)
+                
                 optimizer_ad_vgg.zero_grad()
                 optimizer_ad_cls.zero_grad()
                 y_hat, t_hat = model(face.float().to(device), leye.float().to(device), reye.float().to(device), subj_id.float().to(device))
@@ -342,7 +349,7 @@ def plot_heatmaps():
 
 model_path_utils = ModelPathUtils()
 project_root_path = get_project_root()
-hp_config_path = project_root_path / "src" / "webcam_eyetracking"/ "models" / 'model_training_config' / 'hyperparams.json'
+hp_config_path = project_root_path / "model_training" / "webcam_eyetracking"/  'model_training_config' / 'hyperparams.json'
 with open(hp_config_path) as json_file:
     hp_config = json.load(json_file)
 
@@ -394,6 +401,8 @@ if hp_config["model_type"] == "geddnet":
 dataset_train = torch.load(processed_dataset_folder / hp_config["dataset_folder"] / hp_config["dataset_train_file"])
 dataset_test = torch.load(processed_dataset_folder / hp_config["dataset_folder"] / hp_config["dataset_test_file"])
 
+dataset_train = GazeDataset(data)
+dataset_test = GazeDataset(data)
 
 # %%
 with open(model_train_path_dict["exp_op_path"] / "hyperparams.json", "w") as json_file:
