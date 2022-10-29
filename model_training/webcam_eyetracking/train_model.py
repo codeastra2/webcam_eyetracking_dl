@@ -401,9 +401,6 @@ if hp_config["model_type"] == "geddnet":
 dataset_train = torch.load(processed_dataset_folder / hp_config["dataset_folder"] / hp_config["dataset_train_file"])
 dataset_test = torch.load(processed_dataset_folder / hp_config["dataset_folder"] / hp_config["dataset_test_file"])
 
-dataset_train = GazeDataset(data)
-dataset_test = GazeDataset(data)
-
 # %%
 with open(model_train_path_dict["exp_op_path"] / "hyperparams.json", "w") as json_file:
     json_file.write(json.dumps(hp_config, indent=2))
