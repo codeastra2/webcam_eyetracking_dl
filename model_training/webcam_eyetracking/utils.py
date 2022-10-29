@@ -14,7 +14,7 @@ import seaborn as sns
 import logging
 import sys
 
-PROJECT_NAME = "GEDDnet"
+PROJECT_NAME = "webcam_eyetracking_dl"
 
 
 class ModelTrainingHelper():
