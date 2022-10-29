@@ -5,19 +5,14 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "webcam-eyetracking"
 version = "0.1.0"
-description = "Experiments for Semanux's Webcam Eyetracking."
+description = "Framework for Webcam eye tracking with deep learning."
 authors = [
     "Srinivas Kumar Ramdas <hotshotsrini@hotmail.com>" ,
     "Lukas Schmelzeisen <me@lschmelzeisen.com>",
 ]
 readme = "README.md"
-repository = "https://github.com/semanux/webcam-eyetracking/"
-
-[tool.poetry.urls]
-"Issue Tracker" = "https://github.com/semanux/webcam-eyetracking/issues"
 
 [tool.poetry.dependencies]
-Flask = "^2.1.2"
 matplotlib = "^3.5.2"
 mediapipe = "^0.8.10"
 numpy = "^1.23.0"
